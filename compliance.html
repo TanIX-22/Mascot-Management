@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compliance Management – Mascot Management</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { primary: '#1e40af', secondary: '#3b82f6' } } } }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+
+  <!-- Header (same as index.html) -->
+<!-- ====== CONSTANT HEADER (Logo + Login Only) ====== -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+  <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <!-- Company Name -->
+    <div class="text-2xl font-bold text-primary">Mascot Management</div>
+
+    <!-- Login Button (Desktop + Mobile) -->
+    <a href="http://127.0.0.1:3000/d:/login-system/index.html?serverWindowId=16016d5e-03f3-40e9-ba18-01091e6b9614"
+       class="bg-primary text-white px-5 py-2 rounded-full font-semibold hover:bg-secondary transition flex items-center gap-2 shadow-md">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+      </svg>
+      <span class="hidden md:inline">Login</span>
+    </a>
+  </nav>
+</header>
+<!-- ======================================================== -->
+
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-r from-primary to-secondary text-white py-20 relative overflow-hidden">
+    <div class="container mx-auto px-4 text-center relative z-10">
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Compliance Management</h1>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">Compliance Outsourcing at single point for PAN INDIA LOCATIONS.</p>
+      <a href="index.html#services" class="bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition shadow-lg">Back to Services</a>
+    </div>
+    <div class="absolute inset-0 opacity-20">
+      <img src="https://static.vecteezy.com/system/resources/previews/035/389/172/non_2x/compliance-management-icon-line-illustration-vector.jpg" alt="Compliance" class="w-full h-full object-cover">
+    </div>
+  </section>
+
+  <!-- Content -->
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <p class="text-lg text-gray-700 mb-6">
+      The proposed solution will enable the company to maintain a high level of information security and ensure 100% compliance.
+    </p>
+
+    <h2 class="text-3xl font-bold mb-6 text-gray-800">
+      Key Features
+    </h2>
+
+    <ul class="list-disc list-inside space-y-2 text-gray-700 mb-8">
+      <li>Single Point of Contact</li>
+      <li>PF Contributions – <strong>15th of Next Month</strong></li>
+      <li>ESI – <strong>15th of Next Month</strong></li>
+      <li>PT – <strong>As per State Calendar</strong></li>
+      <li>TDS – <strong>7th of Next Month</strong></li>
+      <li>Service Tax – <strong>5th of Next Month</strong></li>
+      <li>LWF – <strong>Next Month</strong></li>
+      <li>CLRA – <strong>Annual (at Registration)</strong></li>
+      <li>CLRA Monthly Registers Maintenance</li>
+      <li>Quarterly Returns Filing</li>
+      <li>Online Tracking for Forms (13, 19)</li>
+      <li>Automated Alerts & Audit Support</li>
+    </ul>
+
+    <div class="text-sm text-gray-500">
+      45,200 Times Visited
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>© 2025 Mascot Management. All Rights Reserved. | Powered by Mascot Management Pvt. Ltd.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
